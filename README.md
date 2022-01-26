@@ -28,7 +28,7 @@
    > vlc "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov" :sout=#transcode{vcodec=theo,vb=800,acodec=vorb,ab=128,channels=2,samplerate=44100,scodec=none}:http{mux=ogg,dst=:8181/test} :no-sout-all :sout-keep
 
 
-=======================================================================================================================================================
+============================================================================================
 
 
 - Linux (Ubuntu)
@@ -38,7 +38,7 @@
    > vlc -vvv "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_115k.mov" --sout "#transcode{vcodec=theo,vb=800,acodec=vorb,ab=128,channels=2,samplerate=44100,scodec=none,fps=30}:http{mux=ogg,dst=:8181/test}" --no-sout-all --sout-keep
 
 
-=======================================================================================================================================================
+============================================================================================
 
 
 - Linux (Amazon Linux 2, Red Hat)
