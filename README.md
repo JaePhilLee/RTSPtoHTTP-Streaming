@@ -8,9 +8,12 @@
  > sudo apt-get install vlc 
 
 - Linux (Amazon Linux 2, Red Hat)
- > sudo yum install libwayland-client \n
+ > sudo yum install libwayland-client
+
  > wget http://mirror.centos.org/centos/7/os/x86_64/Packages/libva-1.8.3-1.el7.x86_64.rpm
+
  > sudo rpm -i libva-1.8.3-1.el7.x86_64.rpm
+
  > sudo yum install vlc
 
 
